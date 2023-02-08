@@ -23,10 +23,10 @@ function Header() {
 
   return (
     <div className="sticky top-0 z-50 flex bg-white px-4 py-2 shadow-sm items-center">
-      <div className="relative h-10 w-20 felx-shrink-0 cursor-pointer">
+      <div className="relative h-12 w-20 felx-shrink-0 cursor-pointer">
         <Link href="/">
           <Image
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Reddit_logo_new.svg/2880px-Reddit_logo_new.svg.png"
+            src="https://1000logos.net/wp-content/uploads/2017/05/Reddit-logo-768x492.png"
             layout="fill"
             objectFit="contain"
             alt=""
