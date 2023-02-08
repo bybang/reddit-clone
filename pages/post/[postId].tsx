@@ -4,7 +4,7 @@ import React from "react";
 import { GET_POST_BY_POST_ID } from "../../graphql/queries";
 import Post from "../../components/Post";
 import { useSession } from "next-auth/react";
-import { useForm } from "react-hook-form";
+import { SubmitHandler, useForm } from "react-hook-form";
 import { ADD_COMMENT } from "../../graphql/mutations";
 import { toast } from "react-hot-toast";
 import Avatar from "../../components/Avatar";
